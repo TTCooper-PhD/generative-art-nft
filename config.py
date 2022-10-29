@@ -26,36 +26,36 @@ CONFIG = [
         'name': 'Background',
         'directory': 'Background',
         'required': True,
-        'rarity_weights': None,
+        'rarity_weights': [34, 36, 40, 134, 147, 198, 207, 214, 221, 226, 227, 228, 229],
     },
-    {
-        'id': 2,
-        'name': 'SpecialBack',
-        'directory': 'SpecialBack',
+       { 'id': 2,
+        'name': 'Special Background',
+        'directory': 'Special Back',
         'required': False,
-        'rarity_weights': None,
-    },
-    {
+        'rarity_weights': [71, 1, 1, 1, 1, 1],
+    }, 
+        {
         'id': 3,
+        'name': 'Pet',
+        'directory': 'Pets',
+        'required': False,
+        'rarity_weights': [70,2,2,1,1],
+    },
+       {
+        'id': 4,
         'name': 'Species',
-        'directory': 'Species',
+        'directory': 'Doom_Body',
         'required': True,
         'rarity_weights': None,
-    },
-    {
-        'id': 4,
-        'name': 'Pet',
-        'directory': 'Pet',
+    },      
+        {
+        'id': 5,
+        'name': 'Body',
+        'directory': 'Body',
         'required': False,
         'rarity_weights': None,
     },
-    {
-        'id': 5,
-        'name': 'Eyes',
-        'directory': 'Eyes',
-        'required': True,
-        'rarity_weights': None,
-    },
+    
     {
         'id': 6,
         'name': 'Mouth',
@@ -65,30 +65,33 @@ CONFIG = [
     },
     {
         'id': 7,
+        'name': 'Eyes',
+        'directory': 'Eyes',
+        'required': True,
+        'rarity_weights': None,
+    },
+    
+    {
+        'id': 8,
+        'name': 'Headwear',
+        'directory': 'Headwear',
+        'required': False,
+        'rarity_weights': None,
+    },
+  {
+        'id': 9,
         'name': 'Earrings',
         'directory': 'Earrings',
         'required': False,
         'rarity_weights': None,
     },
-    {
-        'id': 8,
-        'name': 'Body',
-        'directory': 'Body',
-        'required': True,
-        'rarity_weights': None,
-    },
-    {
-        'id': 9,
-        'name': 'Headwear',
-        'directory': 'Headwear',
-        'required': True,
-        'rarity_weights': None,
-    },
+
+
         {
         'id': 10,
         'name': 'Special_Face',
-        'directory': 'Special_Face',
-        'required': True,
-        'rarity_weights': None,
+        'directory': 'Special Face',
+        'required': False,
+        'rarity_weights': [97,1,1,1],
     },
 ]
